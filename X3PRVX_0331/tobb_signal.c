@@ -37,7 +37,7 @@ switch(sig){// A kapot jel értéke alapján a switch kiválasztja a megfelelő 
 	case 2: {
 	    strcpy(desc, "Interrupt Signal");
 	    signal(SIGINT, SIG_DFL);//Az interruptot az eredeti állapotára állítjuk
-	    printf("\nA CTRL + C most már ki fogja léptetni a programból!");
+	    printf("\nKilépéshez használja a CTRL+C kombinációt!");
 	break;
 	}
 
